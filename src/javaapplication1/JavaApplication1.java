@@ -16,19 +16,13 @@ public class JavaApplication1 {
         */
     
     public static void main(String[] args) {
-        /** @since 18:11 */
-    
-
-
-       
-        int alturaCuadrado=0;
-        double baseCuadrado=0;
-        double areaCuadrado=Math.pow(alturaCuadrado,2);
-        System.out.println(areaCuadrado);
+        Area_cuadrado();/** @since 18:21 */
         
         double baseRectangulo=0;
         int alturaRectangulo=0;
         double areaRectangulo=alturaRectangulo*baseRectangulo;
+         System.out.println(areaRectangulo);
+         
         int radioCirculo=0;
         double Pi=3.14;
         double areaCirculo=(Pi * Math.pow(radioCirculo,2));
@@ -39,6 +33,18 @@ public class JavaApplication1 {
         System.out.println(areaRectangulo);
         System.out.println(areaCirculo);
         System.out.println(areaTriangulo);  
+    }
+
+    public static void Area_cuadrado() {
+        
+        
+        
+        
+        
+        int alturaCuadrado=0;
+        double baseCuadrado=0;
+        double areaCuadrado=Math.pow(alturaCuadrado,2);
+        System.out.println(areaCuadrado);
     }
 
 
